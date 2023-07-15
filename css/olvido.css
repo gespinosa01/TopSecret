@@ -1,0 +1,33 @@
+  main h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .quote {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.4rem;
+    margin: 0 2rem 1rem 2rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .quote p {
+    color: var(--grisPizarra);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .quote:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote:hover p {
+    color: var(--rich-black);
+  }
+  
