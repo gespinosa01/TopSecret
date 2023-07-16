@@ -22,7 +22,7 @@
 blockquote{
     display: inline-block;
     font-style: italic;
-    width: 40rem;
+    max-width: 40rem;
 }
 
 
