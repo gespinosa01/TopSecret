@@ -12,12 +12,14 @@ section.oscuro{
 }
 
 main section img {
+    box-sizing: border-box;
     position: relative;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     max-width: 30rem;
+    min-width: 10rem;
     width: 90%;
     margin: auto;
     background: #fff;
@@ -31,11 +33,6 @@ main section img {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-/* iframe{
-    min-width: 26.7rem;
-    min-height: 15rem;
-    max-width: 100%;
-} */
 .keep-aspect {
     position: relative; /* Necesarios para ela posición absoluta de iframe */
     margin: 5px auto;
